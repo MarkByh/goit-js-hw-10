@@ -67,7 +67,7 @@ function rendercountryList(elem) {
 function renderCountryInfo(elem){
     return elem.map(({capital, name, flags, population,  languages }) =>
         `<div class="country">
-        <img src="${flags.svg}" alt="${name.official}"  width="100" 
+        <img src="${flags.svg}" alt="${name.official}"  width="70" 
         height="50">
         <h2 class="countryName">${name.official}</h2>
         </div>
