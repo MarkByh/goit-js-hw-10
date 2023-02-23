@@ -28,7 +28,7 @@ function onInput(event) {
             return;
         }
         renderCountries(data);
-    })
+    }).catch(error=>{console.log('error');} )
 }
 
 function renderCountries(elem) {
